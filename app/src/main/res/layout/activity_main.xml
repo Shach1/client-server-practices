@@ -5,16 +5,80 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/black">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="132dp"
-        android:fontFamily="@font/sora"
-        android:text="TextView"
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="468dp"
+        android:layout_height="702dp"
+        android:layout_marginStart="-47dp"
+        android:layout_marginTop="-166dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <LinearLayout
+        android:id="@+id/MainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="452dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginHorizontal="24dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/MainTextContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fall in Love with Coffee in Blissful Delight!"
+                android:textAlignment="center"
+                android:fontFamily="@font/sora_semi_bold"
+                android:textSize="32sp"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to our cozy coffee corner, where every cup is a delightful for you."
+                android:textAlignment="center"
+                android:fontFamily="@font/sora_regular"
+                android:textSize="14sp"
+                android:textColor="@color/light_gray"
+                android:layout_marginTop="8dp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Get Started"
+            android:textSize="16sp"
+            android:fontFamily="@font/sora_semi_bold"
+            android:background="@drawable/button_shape"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="16dp"
+            />
+
+    </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

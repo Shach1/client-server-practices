@@ -3,5 +3,7 @@
     <string name="starting_text1">Fall in Love with Coffee in Blissful Delight!</string>
     <string name="starting_text2">Welcome to our cozy coffee corner, where every cup is a delightful for you.</string>
     <string name="btn_starting_text">Get Started</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

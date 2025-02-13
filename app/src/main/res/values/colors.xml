@@ -6,6 +6,7 @@
     <color name="yellow_brown_secondary">#FFEDD6C8</color>
     <color name="dark_gray">#FF313131</color>
     <color name="light_gray">#FFA2A2A2</color>
+    <color name="light_gray2">#FFD8D8D8</color>
     <color name="light_brown">#FFE3E3E3</color>
-    <color name="pastel_white">#FFF9F2ED</color>
+    <color name="pastel_white">#FFF9F9F9</color>
 </resources>

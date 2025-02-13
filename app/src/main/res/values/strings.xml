@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Practice1</string>
+    <string name="app_name">Practice 1</string>
+    <string name="starting_text1">Fall in Love with Coffee in Blissful Delight!</string>
+    <string name="starting_text2">Welcome to our cozy coffee corner, where every cup is a delightful for you.</string>
+    <string name="btn_starting_text">Get Started</string>
 
 </resources>

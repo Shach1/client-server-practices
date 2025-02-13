@@ -15,6 +15,7 @@
         android:layout_height="702dp"
         android:layout_marginStart="-47dp"
         android:layout_marginTop="-166dp"
+        android:importantForAccessibility="no"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img" />
@@ -42,7 +43,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fall in Love with Coffee in Blissful Delight!"
+                android:text="@string/starting_text1"
                 android:textAlignment="center"
                 android:fontFamily="@font/sora_semi_bold"
                 android:textSize="32sp"
@@ -53,7 +54,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Welcome to our cozy coffee corner, where every cup is a delightful for you."
+                android:text="@string/starting_text2"
                 android:textAlignment="center"
                 android:fontFamily="@font/sora_regular"
                 android:textSize="14sp"
@@ -63,16 +64,17 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnGoHome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/custom_button_shape"
             android:layout_marginTop="40dp"
-            android:text="Get Started"
+            android:text="@string/btn_starting_text"
             android:textSize="16sp"
             android:fontFamily="@font/sora_semi_bold"
-            android:background="@drawable/button_shape"
             android:paddingHorizontal="20dp"
             android:paddingVertical="16dp"
+            android:textColor="@color/white"
             />
 
     </LinearLayout>
